@@ -25,7 +25,7 @@
            [org.bouncycastle.openssl PEMWriter]
 ;            [org.bouncycastle.util Strings]
 ;           [org.bouncycastle.openssl.jcajce JcaPEMWriter]
-           [OpenSSHWriter]))
+           OpenSSHWriter))
 
 (def default-algorithm "RSA")
 ; (def default-provider "BC")

@@ -2,11 +2,11 @@
   :description "A clojure and java library to genereate OpenSSH compliant keypairs without executing ssh binaries"
   :url "https://dyne.org"
 
-  :dependencies [[org.bouncycastle/bcprov-jdk15on "1.57"]
-                 [org.bouncycastle/bcpkix-jdk15on "1.57"]
-                 [commons-codec/commons-codec "1.10"]
-                 [org.clojure/clojure "1.8.0"]
-                 [org.clojure/tools.logging "0.4.0"]]
+  :dependencies [[org.bouncycastle/bcprov-jdk15on "1.65.01"]
+                 [org.bouncycastle/bcpkix-jdk15on "1.65"]
+                 [commons-codec/commons-codec "1.14"]
+                 [org.clojure/clojure "1.10.1"]
+                 [org.clojure/tools.logging "1.1.0"]]
 
   :jvm-opts ["-Djava.security.egd=file:/dev/random" ;use a proper random source
              "-XX:-OmitStackTraceInFastThrow"] ; stacktrace JVM exceptions
